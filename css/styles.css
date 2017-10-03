@@ -1,0 +1,127 @@
+/*Color Palette
+
+#40134F Royal Purple
+#0F2554 Space Cadet blue
+#020122 Rich Black
+#3F0F3A Dark Purple
+#CBF2D1 Tea Green
+#D4DCFF Pale lavender
+
+#2EBD59 medium sea green
+#036D19 deep green
+#1D263B yankees blue
+#CBF2D1 Tea Green
+#D7CDCC light gray
+#FFFFFF white
+*/
+
+/* Global styles
+------------------------------------*/
+
+/* border box fix */
+ html {
+	box-sizing: border box;
+}
+
+*, *:before, *after {
+	box-sizing: inherit;
+} 
+
+
+body {
+	font-family: 'Maven Pro', sans-serif;
+	margin: 0;
+	background: #FFFFFF;
+}
+
+h1, h2  {font-family: 'Monoton', cursive;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 0;
+}
+h3 {
+	margin: 0;
+}
+/*.education: {
+	clear: both;
+}
+*/
+.content-wrap {
+	overflow: hidden;
+	padding: 33px;	
+}
+
+.col-narrow {
+	width: 30%;
+	float: left;
+}
+
+.col-wide {
+	width: 70%;
+	float: left;
+	padding-left: 20 px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+/* Header & Footer -----------------*/
+header img {
+    max-width: 720px;
+}
+
+header, footer {
+	background: #3F0F3A;
+	color:
+	#D4DCFF;
+	margin: 0;
+}	
+
+/* header */
+.profile-img {
+	border-radius: 22px;
+}
+
+/* footer */
+footer {text-align: center;
+}
+
+.contact-info a {
+	background: white;
+	padding: 10px;
+	display: inline-block
+}
+
+/* Experience-----------*/
+
+.experience {
+	background:
+	#D4DCFF;
+	color: #020122
+}
+h3 ~ p {
+	margin: 0;
+}
+.job-description p:first-of-type {
+	margin-bottom 25px;
+}
+.job-description p:first-of-type {
+margin-top: 0;
+}
+
+/* Education-----------*/
+
+.education {
+	background: #020122;
+	color: #D4DCFF
+}
+p + h3 {
+	margin-top: 30px;
+}
